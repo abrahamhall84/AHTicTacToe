@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+}
+/*Game Title*/
+.game-title {
+  margin-top: 15px;
+  border-bottom: 5px solid black; 
+}
+h1 {
+  padding-bottom: 25px; 
+  font-weight: bold; 
+}
+/*Message Board*/
+.message-board {
+  margin: 20px;
+}
+.score-title {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+} 
+.player-title {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.X-score-title {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 40px;
+  margin-left: 8px;
+  padding-bottom: 10px;
+  font-size: 25px; 
+  font-weight: bold;
+}
+.O-score-title {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  font-size: 25px; 
+  font-weight: bold;
+}
+.points-title {
+  margin-top: 20px; 
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.player-turn {
+  margin-right: 10px;
+  margin-left: 25px; 
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.X-score-sum {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  margin-left: 8px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+.O-score-sum {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+.horizontal, .vertical, .diagonal {
+  font-size: 14px;
+}
+b {
+  font-size: 18px;
+}
+.vertical {
+  margin-left: 3px;
+}
+.diagonal {
+  margin-left: -10px;
+}
+strong {
+  font-size: 25px;
+  padding: 10px;
+}
+h4 {
+  margin-left: -50px;
+}
+/*Game Board*/
+.game-board .col-xs-2 {
+  border: 1px solid black;
+  height: 125px;
+  width: 125px;
+  padding-left: -15px;
+  font-size: 75px;
+  font-weight: bold;
+}
+#box1, #box4, #box7 {
+  margin-left: 375px;
+}
+/*Buttons*/
+.button-board {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+#restart-game {
+  margin-left: -40px;
+}
+.button-message {
+  margin-top: 15px;
+  font-size: 14px;
+}
+/*Footer*/
+footer {
+  background-color: rgb(12, 110, 142);
+}
+.copyright {
+  padding: 15px;
+  font-size: 16px;
+  color: black;
+}

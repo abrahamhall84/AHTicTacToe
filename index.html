@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="tacmain.css">
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- <script src="jquery-3.1.1.min.js"></script>
+ -->
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header class="container-fluid game-title">
+    <div class="row">
+      <h1 class="col-xs-3 col-xs-offset-4">Tic-Tac-Toe</h1>
+    </div>
+  </header>
+  <section class="container message-board">
+    <div class="row">
+      <div class="col-xs-3 col-xs-offset-4 score-title">
+        Score
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-2 player-title">Player's Turn:</div>
+      <div class="col-xs-1 top-left-empty-col"></div>
+      <div class="col-xs-2 X-score-title">X</div>
+      <div class="col-xs-2 O-score-title">O</div>
+      <div class="col-xs-1 top-right-empty-col"></div>
+      <div class="col-xs-4 points-title">Points Awarded By Wins</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-2 player-turn">X</div>
+      <div class="col-xs-1 bottom-left-empty-col"></div>
+      <div class="col-xs-2 X-score-sum"><br></div>
+      <div class="col-xs-2 O-score-sum"><br></div>
+      <div class="col-xs-1 bottom-right-empty-col"></div>
+      <div class="col-xs-1 horizontal">Horizontal:<br><i><b>1</b><br>point</i>
+      </div>
+      <div class="col-xs-1 vertical">Vertical:<br><i><b>2</b><br>points</i>
+      </div>
+      <div class="col-xs-1 diagonal">Diagonal:<br><i><b>3</b><br>points</i>
+      </div><b></b>
+    </div>
+    <div class="row notice">
+      
+    </div>
+  </section>
+  <section class="container-fluid game-board">
+    <div class="row">
+      <div id="box1" class="col-xs-2  col-xs-offset-4"></div>
+      <div id="box2" class="col-xs-2"></div>
+      <div id="box3" class="col-xs-2"></div>
+    </div>
+    <div class="row">
+      <div id="box4" class="col-xs-2  col-xs-offset-4"></div>
+      <div id="box5" class="col-xs-2"></div>
+      <div id="box6" class="col-xs-2"></div>
+    </div>
+    <div class="row">
+      <div id="box7" class="col-xs-2  col-xs-offset-4"></div>
+      <div id="box8" class="col-xs-2"></div>
+      <div id="box9" class="col-xs-2"></div>
+    </div>
+  </section>
+ <section class="container button-board">
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3 button-group">
+        <button type="button" id="restart-game" class="btn btn-primary">Clear Board</button>
+        <button type="button" id="start-game" class="btn btn-primary">Start Game</button>
+        <button type="button" id="restart-score" class="btn btn-primary">Restart Score</button>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3 button-message">
+        Double click the <i>Restart Button</i> to refresh the page.
+      </div> 
+    </div>
+  </section>
+  <!-- <div class="row">
+    <div class="col-xs-3 col-xs-offset-4">
+      Test: <ul id="test"></ul>
+    </div> 
+  </div> -->
+  <footer class="container-fluid">
+    <div class="row">
+      <h6 class="col-xs-6 col-xs-offset-3 copyright">&copy;<u>Abraham Hall 2016</u></h6>
+    </div>
+  </footer>
+  <script src="toeapp.js"></script>
+  
+</body>
+</html>
